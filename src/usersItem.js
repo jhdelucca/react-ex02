@@ -28,7 +28,7 @@ export function UsersItem(props) {
 
             <div>
                
-                <Link to = {`user/${props.userNome}`} > Detalhar nome</Link>
+                <Link to = {`users/${props.userNome}`} > Detalhar nome</Link>
             </div>
 
             <div>
