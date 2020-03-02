@@ -9,6 +9,6 @@ export const ApplicationRoutes = () => (
   <>
     <Route path="/" exact component={BoasVindasComponent} />
     <Route path="/users" exact component={Users} />
-    <Route path="/users/:paramName" exact component={UserDetail}  />
+    <Route path="/user/:paramName" exact component={UserDetail}  />
   </>
 );
